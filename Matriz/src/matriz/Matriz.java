@@ -1,7 +1,10 @@
 package matriz;
+
+import Vista.Vista;
+
 /**
  *
- * @author Reyes Santana - Diana Pinzon
+ * @author Reyes Hernando Santana - Diana Pilar Pinzon
  */
 public class Matriz {
 
@@ -9,8 +12,9 @@ public class Matriz {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Arrancamos la vista del proyecto
-        Vista principal = new Vista();
-        principal.setVisible( true);
-    }    
+        // TODO code application logic here
+        Vista Vista = new Vista();
+        Vista.setVisible (true);
+    }
+    
 }
